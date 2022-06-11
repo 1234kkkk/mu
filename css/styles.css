@@ -1,0 +1,188 @@
+
+body {
+  font-family: "Montserrat";
+}
+
+/****for accesssing we use # at the begining************/
+#title {
+  background-color: #ff4c69;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h3 {
+
+  font-size: 1.5rem;
+}
+
+P {
+  color: #8f8f8f;
+}
+
+
+h2 {
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15% 10% 15%;  /***3 for top and bottom and 15 for left and right***/
+  margin-bottom: 0;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+
+/****navigation bar*****/
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+ }
+
+.nav-item {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+font-family: 'Montserrat-light', sans-serif;
+}
+
+/******for download button ****/
+.raja {
+  margin: 60px 40px 0 0;
+}
+/******for title image****/
+.title-image {
+  width:25%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+}
+
+
+
+/**feature section***/
+#features {
+padding: 10% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 6%;
+
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/**testimonial section***/
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+
+
+.bye {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+.root {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+#pricing {
+  padding: 6% 10%;
+  text-align: center;
+}
+
+
+.space {
+  padding: 5% 2%;
+}
+
+
+@media (max-width: 1132px) {
+
+#title {
+  text-align: center;
+}
+
+
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+    padding-top: 70px;
+  }
+}
+
+#cta {
+  background-color: #ff4c69;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.jean {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+
+}
+
+
+
+
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.fuck {
+  margin: 20px 10px 40px 10px;
+
+}
